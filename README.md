@@ -18,8 +18,11 @@
 <img width="389" alt="Screen Shot 2022-06-29 at 11 37 49 PM" src="https://user-images.githubusercontent.com/102645083/176609332-cb44ef92-3339-4b13-a01e-393fd86d7078.png">
 
 ## The next step is optional, and it can be Average or Max Pooling, which are compression methods. Occasionly, it's unnecessary to output every single data from the current layer to the next. We can divide the newly modified feature map into portions (four in this example), and take the average or maximum value (max in this example) from each portion. We can easily recognize which part of the image matches the most with the filter from this new feature map.
-<img width="515" alt="Screen Shot 2022-06-29 at 11 48 17 PM" src="https://user-images.githubusercontent.com/102645083/176611115-7ef12719-d713-4401-8f9c-daab93366e6e.png">
 <img width="173" alt="Screen Shot 2022-06-29 at 11 48 33 PM" src="https://user-images.githubusercontent.com/102645083/176611141-d8679a3d-acd2-44fd-9f1c-f23ac5807c18.png">
+
+## It's important to note that we can apply many different filters to the same image, and each filter can be applied to many different images.
+![Screen Shot 2022-06-29 at 11 52 07 PM](https://user-images.githubusercontent.com/102645083/176611735-f1163cc5-2528-4d39-bc34-9502e8c8839e.png)
+
 
 
 
