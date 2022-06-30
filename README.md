@@ -23,7 +23,11 @@
 ## It's important to note that we can apply many different filters to the same image, and each filter can be applied to many different images.
 ![Screen Shot 2022-06-29 at 11 52 07 PM](https://user-images.githubusercontent.com/102645083/176611735-f1163cc5-2528-4d39-bc34-9502e8c8839e.png)
 
+## With the basics out of the way, we can now focus on more complex images. The process is actually quite similar, and we first start by applying the RGB color model. By taking the original image and splitting it into a red, green, and blue channel, we now get three images that we can perform deep learning on. We then apply the exact same process as above, except we do it to all three images and combining the result for the feature map.
+![Screen Shot 2022-06-30 at 1 59 58 PM](https://user-images.githubusercontent.com/102645083/176777523-b868f481-42e4-415b-80b2-4607503f5514.png)
 
+## In the training set of this project, we have 1,000 pictures of both dogs and cats. They all have different shapes, which means the first thing we do when initializing this model is resizing them all to the same size (64 x 64 pixels). The input layer now consists of a red, green, and blue 64 x 64, and we can now input it into the first hidden layer, which has 32 features. 
+<img width="530" alt="Screen Shot 2022-06-30 at 2 14 01 PM" src="https://user-images.githubusercontent.com/102645083/176779366-50807548-7191-4c9c-a9f3-a3d12fe77da4.png">
 
 
 
