@@ -16,6 +16,7 @@ dogTrainingDirectory = os.path.join(trainDirectory, 'dogs')
 catValidationDirectory = os.path.join(validationDirectory, 'cats')
 dogValidationDirectory = os.path.join(validationDirectory, 'dogs')
 
+# total parameters: 896 + 18496 + 73856 + 2359808 + 513 = 2453569 
 model = tf.keras.models.Sequential([
     tf.keras.layers.Conv2D(32, (3,3), activation='relu', input_shape=(64, 64, 3)),
     tf.keras.layers.MaxPooling2D(2,2),
