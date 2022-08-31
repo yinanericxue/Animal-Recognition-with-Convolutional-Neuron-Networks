@@ -7,6 +7,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import ModelCheckpoint
 
+# using features from the os module, we can directly process the images if they are in the same home folder as the code
 baseDirectory = './data/cats_and_dogs'
 trainDirectory = os.path.join(baseDirectory, 'train')
 validationDirectory = os.path.join(baseDirectory, 'validation')
