@@ -29,6 +29,11 @@
 ## In the training set of this project, we have 1,000 pictures of both dogs and cats. They all have different shapes, which means the first thing we do when initializing this model is resizing them all to the same size (64 x 64 pixels). The input layer now consists of a red, green, and blue 64 x 64, and we can now input it into the first hidden layer, which has 32 features. 
 <img width="530" alt="Screen Shot 2022-06-30 at 2 14 01 PM" src="https://user-images.githubusercontent.com/102645083/176779366-50807548-7191-4c9c-a9f3-a3d12fe77da4.png">
 
+## 1,000 samples are usually not even close being enough for models like this, and we can see that by looking at the Training and Validation accuracy / loss.
+![Screen Shot 2022-09-03 at 11 55 43 AM](https://user-images.githubusercontent.com/102645083/188291299-0859fef1-24f0-4bfe-90bf-d71c9686cbc0.png)
+![Screen Shot 2022-09-03 at 11 55 57 AM](https://user-images.githubusercontent.com/102645083/188291301-7bf91c5f-788e-48b8-9b40-678635038d6a.png)
+
+## While we could add more epochs during training and hidden layers to the model, that will lead to overfitting issues.
 
 
 
